@@ -44,3 +44,18 @@
 - Verified form submission and success feedback
 - Confirmed validation blocks empty fields
 - Error message appears on failed API call
+
+## Task 3: API Integration for Reviews
+
+### ✅ Setup
+- Used `axios` to fetch reviews from `/api/properties/:id/reviews`
+- Passed `propertyId` as prop to `ReviewSection`
+
+### 🔧 Implementation
+- Managed loading and error states with `useState`
+- Rendered dynamic reviews with rating and reviewer name
+- Displayed fallback message if no reviews found
+
+### 🧪 Testing
+- Verified dynamic rendering of reviews
+- Confirmed loading and error handling
